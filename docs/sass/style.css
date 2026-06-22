@@ -1,0 +1,359 @@
+input::-moz-placeholder {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+input::placeholder {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+body {
+  width: 1520px;
+  background: #202020;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  height: 100px;
+  width: 1520px;
+}
+.header .header__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  right: 10px;
+}
+.header .header__container .header__link-main {
+  position: relative;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.header .header__container .header__link {
+  position: relative;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  color: #ffffff;
+  outline: none;
+  text-decoration: none;
+}
+.header .header__container .header__link-img {
+  position: relative;
+  top: 15px;
+  left: 20px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.main .container__main {
+  width: 1520px;
+}
+.main .container__main .main__title .title__img {
+  width: 1520px;
+}
+.main .container__info {
+  width: 1520px;
+  height: 500px;
+}
+.main .container__info .main__info {
+  position: relative;
+  bottom: 24px;
+  background: #00ABAB;
+  margin: 0px 0px 50px 0px;
+  display: flex;
+}
+.main .container__info .main__info .info__img {
+  margin: 20px;
+  position: relative;
+  left: 150px;
+  bottom: 10px;
+}
+.main .container__info .main__info .info__service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  top: 100px;
+}
+.main .container__info .main__info .info__service .service__title {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.main .container__info .main__info .info__service .service__text {
+  font-size: 24px;
+  margin: 0px 250px;
+  position: relative;
+  font-style: italic;
+  text-align: center;
+}
+.main .container__info .main__info .info__service .service__button {
+  background-color: #008686;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 30px;
+  margin: 10px 0px;
+  padding: 10px 50px;
+  border: none;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main .container__form {
+  width: 1520px;
+  height: 200px;
+  position: relative;
+  bottom: 80px;
+}
+.main .container__form .form {
+  background: #008686;
+  height: 600px;
+}
+.main .container__form .form .container__form {
+  background: #0E686C;
+  position: relative;
+  left: 500px;
+  top: 50px;
+  width: 500px;
+  height: 500px;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .container__form .form .container__form .form__textarea-title {
+  color: #ffffff;
+  font-size: 36px;
+  position: relative;
+  top: 25px;
+}
+.main .container__form .form .container__form .form__textarea {
+  color: #ffffff;
+  background-color: #008686;
+  border-radius: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 0px 50px;
+  border-color: #ffffff;
+  position: relative;
+  top: 20px;
+}
+.main .container__form .form .container__form .form__textarea-button {
+  color: #ffffff;
+  background-color: #008686;
+  border-radius: 20px;
+  font-size: 30px;
+  margin: 20px 0px;
+  padding: 10px 50px;
+  border: none;
+  position: relative;
+  top: 25px;
+  cursor: pointer;
+}
+
+.footer {
+  color: #ffffff;
+  width: 1520px;
+}
+.footer .footer__info {
+  display: flex;
+  position: relative;
+  bottom: 10px;
+}
+.footer .footer__info .footer__text {
+  font-size: 20px;
+  margin: 0px 50px;
+  position: relative;
+  left: 450px;
+}
+.footer .footer__info .footer__logo {
+  position: relative;
+  bottom: 20px;
+  left: 400px;
+}
+.footer .footer__name {
+  position: relative;
+  left: 600px;
+}
+
+.main__service {
+  background: #008686;
+  color: #ffffff;
+  height: 1100px;
+  margin: 0px 0px 50px 0px;
+  position: relative;
+  bottom: 30px;
+}
+.main__service .main__title {
+  position: relative;
+  left: 610px;
+  top: 40px;
+  font-size: 46px;
+}
+.main__service .card__container-1 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.main__service .card__container-1 .main__card .card__text {
+  margin: 10px;
+  text-decoration: underline;
+}
+.main__service .card__container-1 .main__card .card__title {
+  font-size: 32px;
+}
+.main__service .card__container-1 .main__card .card__title-min {
+  font-size: 24px;
+  position: relative;
+  left: 10px;
+  margin: 10px 0px;
+}
+.main__service .card__container-1 .main__card .card__logo {
+  position: relative;
+  right: 40px;
+  top: 30px;
+}
+.main__service .card__container-2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  left: 850px;
+  bottom: 800px;
+}
+.main__service .card__container-2 .main__card .card__text {
+  margin: 10px;
+  text-decoration: underline;
+}
+.main__service .card__container-2 .main__card .card__title {
+  font-size: 32px;
+}
+.main__service .card__container-2 .main__card .card__logo {
+  position: relative;
+  right: 40px;
+  top: 30px;
+}
+
+.container__info-block {
+  background: #008686;
+  color: #ffffff;
+  height: 1000px;
+  margin: 0px 0px 50px 0px;
+  position: relative;
+}
+.container__info-block .info-block .info-block__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container__info-block .info-block .info-block__info .info__text {
+  margin: 10px 250px;
+  font-size: 20px;
+}
+.container__info-block .info-block .info-block__info .info__title {
+  font-size: 36px;
+}
+.container__info-block .info-block .info-block__requisites {
+  display: flex;
+  position: relative;
+  top: 50px;
+  left: 250px;
+}
+.container__info-block .info-block .info-block__requisites .requisites__img {
+  position: relative;
+  left: 80px;
+}
+.container__info-block .info-block .info-block__requisites .requisites__main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+}
+.container__info-block .info-block .info-block__requisites .requisites__main .requisites__text {
+  margin: 10px 0px;
+}
+
+.main__contact {
+  background: #008686;
+  color: #ffffff;
+  height: 900px;
+  margin: 0px 0px 50px 0px;
+  position: relative;
+  bottom: 21px;
+}
+.main__contact .container__contact {
+  text-align: center;
+}
+.main__contact .container__contact .contact__info {
+  position: relative;
+  top: 50px;
+}
+.main__contact .container__contact .contact__info .contact__title {
+  position: relative;
+  font-size: 45px;
+}
+.main__contact .container__contact .contact__info .contact__adress {
+  font-size: 24px;
+  position: relative;
+  bottom: 20px;
+}
+.main__contact .container__contact .contact__info .contact__text {
+  position: relative;
+  margin: 8px 0px;
+}
+.main__contact .container__contact .contact__form {
+  background: #008686;
+  height: 600px;
+  position: relative;
+  top: 50px;
+}
+.main__contact .container__contact .contact__form .container__form {
+  background: #0E686C;
+  position: relative;
+  left: 510px;
+  top: 50px;
+  width: 500px;
+  height: 500px;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__contact .container__contact .contact__form .container__form .form__textarea-title {
+  color: #ffffff;
+  font-size: 36px;
+  position: relative;
+  top: 25px;
+}
+.main__contact .container__contact .contact__form .container__form .form__textarea {
+  color: #ffffff;
+  background-color: #008686;
+  border-radius: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 0px 50px;
+  border-color: #ffffff;
+  position: relative;
+  top: 20px;
+}
+.main__contact .container__contact .contact__form .container__form .form__textarea-button {
+  color: #ffffff;
+  background-color: #008686;
+  border-radius: 20px;
+  font-size: 30px;
+  margin: 20px 0px;
+  padding: 10px 50px;
+  border: none;
+  position: relative;
+  top: 25px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
