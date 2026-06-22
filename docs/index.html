@@ -12,21 +12,31 @@
     <header class="header">
         <div class="header__container container">
             <img class="header__link-img" src="./img/logo.png" alt="LOGO">
-            <a class="header__link" href="./index.html"><b>Главная</b></a>
+            <a class="header__link-main" href="./index.html"><b>Главная</b></a>
             <a class="header__link" href="./service.html"><b>Услуги</b></a>
             <a class="header__link" href="./info.html"><b>О нас</b></a>
-            <a class="header__link-main" href="./contacts.html"><b>Контакты</b></a>
+            <a class="header__link" href="./contacts.html"><b>Контакты</b></a>
         </div>
     </header>
-    <main class="main__contact">
-        <container class="container__contact">
-            <div class="contact__info">
-                <h1 class="contact__title">Контакты</h1>
-                <h2 class="contact__adress">Адрес: 141302, Московская область, <br> г.Сергиев Посад, ул.Стахановская, д.1д, <br> лит.Б, этаж 1, каб.21</h2>
-                <p class="contact__text">AKN-SP@MAIL.RU</p>
-                <p class="contact__text">+7 (929) 997-82-61</p>
+    <main class="main">
+        <container class="container__main">
+            <div class="main__title">
+                <img src="./img/main-photo.png" alt="" class="title__img">
+                <h1 class="title__text"></h1>
             </div>
-            <div class="contact__form">
+        </container>
+        <container class="container__info">
+            <div class="main__info">
+                <img src="./img/info-photo.png" alt="Наши услуги" class="info__img">
+                <div class="info__service">
+                    <p class="service__title"><b>Наши услуги</b></p>
+                    <p class="service__text">Наше агентство недвижимости, помогающее найти идеальный дом или выгодную инвестицию в недвижимость. Наша команда опытных специалистов предлагает широкий выбор объектов, начиная от уютных квартир и элитных домов до коммерческой недвижимости и земельных участков. Мы ценим каждого клиента и внимательно учитываем ваши предпочтения и бюджеты, чтобы предоставить вам наиболее подходящие варианты.</p>
+                    <a class="service__button" href="./service.html">Подробнее</a>
+                </div>
+            </div>
+        </container>
+        <container class="container__form">
+            <div class="form">
                 <form class="container__form" id="feedback">
                     <h1 class="form__textarea-title">Оставьте свою заявку</h1>
                     <input class="form__textarea" type="text" name="username" id="username" placeholder="Введите ваше имя">
