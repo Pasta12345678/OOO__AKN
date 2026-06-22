@@ -1,0 +1,372 @@
+$color-background: #202020
+$color-container__light: #00ABAB
+$color-container__dark: #008686
+$color-form: #0E686C
+$color-text: #ffffff
+
+
+input::placeholder 
+    color: $color-text
+    font-size: 18px
+body
+    width: 1520px
+    background: $color-background
+    font-family: Arial, Helvetica, sans-serif
+
+.header
+    // background: $color-container__light
+    height: 100px
+    width: 1520px
+    
+    .header__container
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        position: relative
+        right: 10px
+        
+
+        .header__link-main
+            position: relative
+            top: 15px
+            right: 20px
+            font-size: 24px
+            color: $color-text
+            font-weight: 400
+
+        .header__link
+            position: relative
+            top: 15px
+            right: 20px
+            font-size: 24px
+            color: $color-text
+            outline: none
+            text-decoration: none
+        
+        .header__link-img
+            position: relative
+            top: 15px
+            left: 20px
+            height: 70px
+            border-radius: 10px
+
+.main
+
+    .container__main
+        width: 1520px
+        .main__title
+
+            .title__img
+                width: 1520px
+
+    .container__info
+        width: 1520px
+        height: 500px
+
+        .main__info
+            position: relative
+            bottom: 24px
+            background: $color-container__light
+            margin: 0px 0px 50px 0px
+            display: flex
+
+            .info__img
+                margin: 20px
+                position: relative
+                left: 150px
+                bottom: 10px
+
+            .info__service
+                display: flex
+                flex-direction: column
+                align-items: center
+                color: $color-text
+                position: relative
+                top: 100px
+                
+
+                .service__title
+                    font-size: 32px
+                    font-weight: 500
+                    margin: 20px 0px
+
+                .service__text
+                    font-size: 24px
+                    margin: 0px 250px
+                    position: relative
+                    font-style: italic
+                    text-align: center
+
+                .service__button
+                    background-color: $color-container__dark
+                    color: $color-text
+                    border-radius: 20px
+                    font-size: 30px
+                    margin: 10px 0px
+                    padding: 10px 50px
+                    border: none
+                    position: relative
+                    top: 20px
+                    cursor: pointer
+                    text-decoration: none
+                
+    .container__form
+        width: 1520px
+        height: 200px
+        position: relative
+        bottom: 80px
+
+        .form
+            background: $color-container__dark
+            height: 600px
+
+            .container__form
+                background: $color-form
+                position: relative
+                left: 500px
+                top: 50px
+                width: 500px
+                height: 500px
+                border-radius: 80px
+                display: flex
+                flex-direction: column
+                align-items: center
+
+                .form__textarea-title
+                    color: $color-text
+                    font-size: 36px
+                    position: relative
+                    top: 25px
+
+                .form__textarea
+                    color: $color-text
+                    background-color: $color-container__dark
+                    border-radius: 20px
+                    font-size: 24px
+                    text-align: center
+                    margin: 20px 0px
+                    padding: 0px 50px
+                    border-color: $color-text
+                    position: relative
+                    top: 20px
+                
+                .form__textarea-button
+                    color: $color-text
+                    background-color: $color-container__dark
+                    border-radius: 20px
+                    font-size: 30px
+                    margin: 20px 0px
+                    padding: 10px 50px
+                    border: none
+                    position: relative
+                    top: 25px
+                    cursor: pointer
+                    
+
+.footer
+    color: $color-text
+    width: 1520px
+
+    .footer__info
+        display: flex
+        position: relative
+        bottom: 10px
+        .footer__text
+            font-size: 20px
+            margin: 0px 50px
+            position: relative
+            left: 450px
+
+        
+        .footer__logo
+            position: relative
+            bottom: 20px
+            left: 400px
+
+    .footer__name
+        position: relative
+        left: 600px        
+
+
+.main__service
+    background: $color-container__dark
+    color: $color-text
+    height: 1100px
+    margin: 0px 0px 50px 0px
+    position: relative
+    bottom: 30px
+
+    .main__title
+        position: relative
+        left: 610px
+        top: 40px
+        font-size: 46px
+
+    .card__container-1
+        position: relative
+        top: 50px
+        left: 100px
+
+        .main__card
+            
+            .card__text
+                margin: 10px
+                text-decoration: underline
+
+            .card__title
+                font-size: 32px
+            
+            .card__title-min
+                font-size: 24px
+                position: relative
+                left: 10px
+                margin: 10px 0px
+
+            .card__logo
+                position: relative
+                right: 40px
+                top: 30px
+
+
+    .card__container-2
+        display: flex
+        position: relative
+        flex-direction: column
+        left: 850px
+        bottom: 800px
+        
+        .main__card
+            
+            .card__text
+                margin: 10px
+                text-decoration: underline
+
+            .card__title
+                font-size: 32px
+
+            .card__logo
+                position: relative
+                right: 40px
+                top: 30px
+            
+.container__info-block
+    background: $color-container__dark
+    color: $color-text
+    height: 1000px
+    margin: 0px 0px 50px 0px
+    position: relative
+
+
+    .info-block
+
+        .info-block__info
+            display: flex
+            flex-direction: column
+            align-items: center
+            text-align: center
+            
+            .info__text
+                margin: 10px 250px
+                font-size: 20px
+
+            .info__title
+                font-size: 36px
+
+
+        .info-block__requisites
+            display: flex
+            position: relative
+            top: 50px
+            left: 250px
+            
+            .requisites__img
+                position: relative
+                left: 80px
+
+            .requisites__main
+                display: flex
+                flex-direction: column
+                position: relative
+                top: 50px
+
+                .requisites__text
+                    margin: 10px 0px
+                    
+.main__contact
+    background: $color-container__dark
+    color: $color-text
+    height: 900px
+    margin: 0px 0px 50px 0px
+    position: relative
+    bottom: 21px
+
+    .container__contact
+        text-align: center
+
+        .contact__info
+            position: relative
+            top: 50px
+
+            .contact__title
+                position: relative
+                font-size: 45px
+
+
+            .contact__adress
+                font-size: 24px
+                position: relative
+                bottom: 20px
+            
+            .contact__text
+                position: relative
+                margin: 8px 0px
+
+        .contact__form
+            background: $color-container__dark
+            height: 600px
+            position: relative
+            top: 50px
+
+            .container__form
+                background: $color-form
+                position: relative
+                left: 510px
+                top: 50px
+                width: 500px
+                height: 500px
+                border-radius: 80px
+                display: flex
+                flex-direction: column
+                align-items: center
+
+                .form__textarea-title
+                    color: $color-text
+                    font-size: 36px
+                    position: relative
+                    top: 25px
+
+                .form__textarea
+                    color: $color-text
+                    background-color: $color-container__dark
+                    border-radius: 20px
+                    font-size: 24px
+                    text-align: center
+                    margin: 20px 0px
+                    padding: 0px 50px
+                    border-color: $color-text
+                    position: relative
+                    top: 20px
+                
+                .form__textarea-button
+                    color: $color-text
+                    background-color: $color-container__dark
+                    border-radius: 20px
+                    font-size: 30px
+                    margin: 20px 0px
+                    padding: 10px 50px
+                    border: none
+                    position: relative
+                    top: 25px
+                    cursor: pointer
+                    
+
